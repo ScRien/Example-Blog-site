@@ -1,0 +1,39 @@
+BAŞLIK<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BAŞLIK | Kayıt Ol</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body><b>
+	<!-- ÜST MENÜ BAŞLANGIÇ -->
+	<h1 >BAŞLIK | 
+		<a href="anasayfa.html" id="anasayfa">Anasayfa</a> | 
+		<a href="hakkimizda.html" id="hakkımızda">Hakkımızda</a> | 
+		<a href="iletisim.html" id="iletişim">İletişim</a> | 
+		<a href="üyelik-islem.html" id="üyelik">Üyelik İşlemleri</a>
+	</h1>
+	<!-- ÜST MENÜ BİTİŞ -->
+	
+	<form class="kayit-form" action="kayit-basarili.html" method="get">
+		<fieldset>
+			<legend>Kayıt Ol</legend>
+			Adınızı Giriniz:
+			<input type="text" name="ad" required style="font-size: 25px;"> <br>
+			Mail Giriniz:
+			<input type="email" name="mail" required style="font-size: 25px;"> <br>
+			Cinsiyet Seçiniz:
+			<input type="radio" name="cinsiyet" id="erkek" value="erkek" required style="font-size: 25px;">
+			<label for="erkek">Erkek</label>
+			<input type="radio" name="cinsiyet" id="kadin" value="kadin" required style="font-size: 25px;">
+			<label for="kadin">Kadın</label><br>
+			
+
+			<br> <input type="submit" value="Kaydet">
+
+		</fieldset>
+	</form>
+</b>
+</body>
+</html>
